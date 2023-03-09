@@ -1,0 +1,17 @@
+{
+  "name": "webpack-mf-bug-with-mjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm -r --parallel --aggregate-output run build",
+    "test": "pnpm -r --parallel --aggregate-output run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "5.75.0",
+    "webpack-cli": "5.0.1"
+  }
+}
